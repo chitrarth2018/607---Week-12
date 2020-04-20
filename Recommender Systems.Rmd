@@ -1,0 +1,55 @@
+---
+title: "Recommender System"
+author: "Chitrarth Kaushik"
+date: "4/20/2020"
+output: html_document
+---
+
+**Recommender System**  
+Choosing recommender system used by [Amazon.com] for discussion. 
+
+**Scenario Design**  
+1. Who are target users  
+  
+The target users are the buyers or prospective buyers who would visit the website to browse through differet catalogs, select items of their choice, and then buy those items.  
+  
+2. What are their key goals  
+  
+Their key goals are as follows:  
+a. To be able to locate the item that they are looking for or they would want to explore a particular product and may just wish to understand what all are different brands for a particular product, different offers, price ranges etc.   
+b. They should take least possible time to locate the item of their choice  
+c. In many cases the users are looking for a price bargain vis-a-vis the item they are getting in   normal brick-and-mortar store  
+d. They may be willing to see different brands which are offering similar items and be able to perform a price and feature comparison  
+e. They will be interested in most cases to be able to observe the item via detailed images  
+f. They will be interested in most cases to review product details, features etc.  
+  
+3. How can you help them accomplish those goals  
+  
+Below are means in which we can help them achieve the above goals:  
+  
+Goal a - Providing a searchable interface where the user can put in the names of brands, item, artist etc. The items also need to tagged with multiple tags for them to correctly appear in a list. The interface should be able to provide different options coming from different brands, sellers, price ranges so that the user is able to take an informed decision.    
+  
+Goal b - The search should be fast enough to be able to provide the results quickly  
+  
+Goal c - Providing option to the users to be able to sort the items on the basis of price of the item  
+  
+Goal d - Listing items matching the description of the users in suggestions, recommendations as detailed for goal a.    
+  
+Goal e - Providing small images next to the product name which can be magnified upon click  
+  
+Goal f - Providing writeup of the product features etc.  
+  
+**Reverse Engineering**  
+  
+The [Amazon.com] website provides a very user friendly and quick interface that lays out the key elements in a very simple and easy to process way. The webiste appears to be light weight so that it can load quickly even on low speed connections thereby minimizing any chances of the buyer/prospect closing the website mid-way.  
+  
+There is a broad search bar at the very top which entices the user to quickly punch-in the items of interest. The webite provides list of different items across different categories. These product categories that are selectd to be displayed can be based on in multiple aspects, for example, if the user has signed in to the website then the suggestions in the drop down can be based on past buying/search/browsing history, based on the past search history of the people having similar profile/buying behavior as that of the user, based on popular items search in the area/city where the user is located currently. If the user has not signed in then the user's past browising history, or location can be used to throw suggestions in the drop down list.  
+  
+Once the user has pressed enter after either typing the full product name or selecting one of the product suggestions from the drop dow, the website provides a list of different items that match the product name typed. The list includes multiple brands, sellers etc. who are providing the item that user needs.  
+Now when the user selects one of the items then the item is displayed in greater detail. One of the key things that happen on the new page that loads is that right above the product a pane is populated with different items that belong to the same category in which the user is trying to shop. For example, if the user searches for guitar then the new page that loads includes a list of items that belong to the category musical instruments, viz., amps, keyboards, drums, Recording etc. Listing out the products within the category can give buyer the ideas of what all else they can buy or at a look to complement the current item.
+
+**Improvements**  
+  
+The website can provide some latest news relevant to the recommended categories of the user. For example, if a person is looking for certain types of clothing - the news can be related to the fashion trends and based on that some new types of clothing items can be displayed. For example, if a lady is searching for grocery items such as cooking , then latest research around health benefits of a particular type of oil can be displayed. 
+
+[Amazon.com]: https://amazon.com/ "Title"
